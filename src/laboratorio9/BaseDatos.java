@@ -8,5 +8,12 @@ import java.util.ArrayList;
 import java.sql.ResultSet;
 public class BaseDatos {
     Usuario u;
+    ArrayList<Usuario> us= new ArrayList();
+    Dba db = new Dba("./Usuarios.mdb");
+    
+    
+    
+    
+    
     
 }
